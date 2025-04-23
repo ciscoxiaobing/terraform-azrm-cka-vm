@@ -122,7 +122,7 @@ variable "vmuser_name" {
 }
 
 variable "sshpwd" {
-  default = "Cloud@123.com"
+  default = "Huawei@123.com"
 }
 
 variable "countnum" {
