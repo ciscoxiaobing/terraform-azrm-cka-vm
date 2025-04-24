@@ -1,8 +1,3 @@
-resource "random_password" "password" {
-  length           = 16
-  special          = true
-  override_special = "_%@"
-}
 
 module "regions" {
   source                    = "ciscoxiaobing/utl-cnregions/azurerm"
